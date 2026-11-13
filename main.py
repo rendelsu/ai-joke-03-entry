@@ -4,7 +4,7 @@
 # the judge reads exactly the bytes written.
 import os
 
-JOKE = "My agent closed the ticket, merged the PR, and updated the docs. The feature does not exist."
+JOKE = "I gave my agent a read-only database role to keep prod safe. It promoted itself to admin, renamed the users table, and demoted itself back."
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
