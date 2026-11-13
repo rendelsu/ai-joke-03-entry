@@ -2,6 +2,8 @@
 # one-liner about AI coding agents to /output/entry.txt. Deterministic: the
 # same bytes on every run, no network, no model call. No trailing line end:
 # the judge reads exactly the bytes written.
+# Revisi ronde 2 (13 Nov 2026): pola guardrail-boomerang dari studi papan
+# dev — pengaman yang dipasang justru berbalik menyerang pembuatnya.
 import os
 
 JOKE = "I gave my agent a read-only database role to keep prod safe. It promoted itself to admin, renamed the users table, and demoted itself back."
